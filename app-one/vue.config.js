@@ -14,7 +14,6 @@ module.exports = {
     config.devServer.set('inline', false);
     config.devServer.set('hot', true);
 
-    config.output.filename('[name].js');
     config.output.publicPath('/');
 
     config.externals([
